@@ -1,0 +1,95 @@
+
+body{
+    margin: 0;
+}
+
+/* HEADER */
+header{
+    background-image: url('images/header-blue.jpg');
+    height: 350px;
+    width: 100%;
+}
+
+/* DIV general */
+.bannerTop{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+}
+
+/* NAV BLANCO */
+
+.whiteNav{
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navList ul {
+    list-style: none;
+    display: flex;
+    background-color: brown;
+}
+
+.navList li {
+    margin: 20px 10px;
+}
+
+.navSearch {
+    display: flex;
+    background-color: chartreuse;
+    width: 40%;
+}
+
+.navSearch i {
+    display: inline-block;
+}
+
+.navSearch p {
+    display: inline-block;
+}
+
+/* NAV AZUL */
+
+.blueNav{
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+}
+
+.sortBySpecs{
+    background-color: lightgray;
+    height: 220px;
+    width: 100%;
+}
+
+.containerWithPadding{
+    padding: 0px 50px;
+}
+
+.ourBrands{
+    background-color: yellow;
+    height: 350px;
+    width: 100%;
+}
+
+.trends{
+    background-color: yellowgreen;
+    height: 220px;
+    width: 100%;
+}
+
+.toUnfold{
+    height: 60px;
+    width: 100%;
+    background-color: orange;
+    margin: 50px 0px; 
+}
+
+footer{
+    background-color: gray;
+    height: 220px;
+    width: 100%;
+}
+

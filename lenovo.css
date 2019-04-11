@@ -276,6 +276,9 @@ header{
     color: #3e88dd;
 }
 
+
+/* Sort by Specs */
+
 .sortTitle {
     width: 41%;
     margin-top: 30px;
@@ -293,18 +296,92 @@ header{
     font-size: 1.4em;
 }
 
-
-
-
-
-/* otro */
-
 .sortBySpecs{
-    background-color: lightgray;
     height: 220px;
     width: 100%;
 }
 
+.specsNav {
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 5px;
+}
+
+.specsItem {
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6f6f6f;
+}
+
+.specsItem p {
+    margin: 4px 0px 0px 0px;
+    font-weight: bold;
+}
+
+.specsItem i {
+    font-size: 0.8em;
+}
+
+.specsItem:last-child{
+    color: #f27010;
+    border-bottom: #f27010 solid 4px;
+}
+
+.moreFeatures {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    background-color:  #f0f0f0;
+    color: #6f6f6f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    align-items: center;
+}
+
+.featuresList {
+    text-align: end;
+    width: 23%;
+}
+.featuresList ul {
+    list-style: none;
+    line-height: 34px;
+}
+
+.featuresList ul li:first-child {
+    color: #f27010;
+}
+
+#forBorder {
+    width: 15px;
+    height: 138px;
+    border-right: black 0.5px solid;
+}
+
+.filtersList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+    font-size: 0.8em;
+    padding-top: 23px;
+    align-self: flex-start;
+}
+
+.checkOption {
+    display: inline-block;
+    width: 170px;
+    margin-left: 40px;
+    margin-bottom: 15px;
+}
+
+
+
+/* otro */
 .containerWithPadding{
     padding: 0px 50px;
 }

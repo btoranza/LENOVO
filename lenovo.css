@@ -14,10 +14,10 @@ header{
 
 /* DIV general */
 .bannerTop{
-    background-color: aqua;
     display: flex;
     flex-direction: row;
     width: 85%;
+    height: 197px;
 }
 
 .navs {
@@ -38,6 +38,8 @@ header{
     display: flex;
     margin: 0;
     padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
 }
 
 .navList li {
@@ -51,22 +53,59 @@ header{
     align-items: center;
 }
 
+.navSearch i {
+    color: grey;
+}
+
 .navSearch span {
     margin-left: 5px;
     font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    color: grey;
 }
 
 /* NAV AZUL */
 
 .blueNav{
-    background-color: blue;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2.5px;
+}
+
+.title {
+    padding-left: 20px;
+    color: white;
+}
+
+.title p {
+    font-size: 0.8em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title h1 {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+}
+
+.title h2 {
+    margin-top: 10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+}
+
+.blueNavImages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .intel {
     height: auto;
-    width: 50px;
+    width: 150px;
 }
 
 .intel img {
@@ -74,6 +113,24 @@ header{
     height: auto;
 }
 
+.intelText {
+    width: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7em;
+    margin-left: 0;
+    color: white;
+
+}
+
+.freeShipping {
+    height: auto;
+    width: 72px;
+}
+
+.freeShipping img {
+    width: 100%;
+    height: auto;
+}
 
 /* otro mambo */
 

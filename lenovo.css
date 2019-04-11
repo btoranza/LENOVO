@@ -490,14 +490,14 @@ header{
 .TPprodItem {
     display: flex;
     flex-direction: row;
-    width: 34%;
+    width: 310px;
     font-family: Arial, Helvetica, sans-serif;
     margin-right: 10px;
 }
 
 .TPprodImgCont {
     height: auto;
-    width: 220px;
+    width: 100px;
 }
 
 .TPprodImgCont img {
@@ -513,6 +513,7 @@ header{
     color:  #47a2e4;
     font-size: 1.1em;
     margin-bottom: 1px;
+    margin-top: 1px;
 }
 
 .TPprodItem h3 {

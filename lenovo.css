@@ -8,6 +8,8 @@ header{
     background-image: url('images/header-blue.jpg');
     height: 350px;
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 /* DIV general */
@@ -15,12 +17,17 @@ header{
     background-color: aqua;
     display: flex;
     flex-direction: row;
+    width: 85%;
+}
+
+.navs {
+    width: 100%;
 }
 
 /* NAV BLANCO */
 
 .whiteNav{
-    background-color: blueviolet;
+    background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -29,7 +36,8 @@ header{
 .navList ul {
     list-style: none;
     display: flex;
-    background-color: brown;
+    margin: 0;
+    padding-left: 10px;
 }
 
 .navList li {
@@ -38,16 +46,14 @@ header{
 
 .navSearch {
     display: flex;
-    background-color: chartreuse;
-    width: 40%;
+    width: 25%;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-.navSearch i {
-    display: inline-block;
-}
-
-.navSearch p {
-    display: inline-block;
+.navSearch span {
+    margin-left: 5px;
+    font-weight: normal;
 }
 
 /* NAV AZUL */
@@ -57,6 +63,19 @@ header{
     display: flex;
     flex-direction: row;
 }
+
+.intel {
+    height: auto;
+    width: 50px;
+}
+
+.intel img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* otro mambo */
 
 .sortBySpecs{
     background-color: lightgray;

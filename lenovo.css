@@ -279,6 +279,11 @@ header{
 
 /* Sort by Specs */
 
+
+.sort {
+    width: 85%;
+}
+
 .sortTitle {
     width: 41%;
     margin-top: 30px;
@@ -286,9 +291,6 @@ header{
     line-height: 1px;
 }
 
-.sort {
-    width: 85%;
-}
 .sortTitle h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -379,18 +381,164 @@ header{
     margin-bottom: 15px;
 }
 
-
-
-/* otro */
+/* padding container */
 .containerWithPadding{
-    padding: 0px 50px;
+    padding: 0px 80px;
 }
 
+/* Our Brands Section */
 .ourBrands{
-    background-color: yellow;
-    height: 350px;
+    height: 300px;
     width: 100%;
 }
+
+.brandsTitle {
+    width: 41%;
+    margin-top: 30px;
+    border-bottom: #6d6d6d solid 1px;
+    line-height: 1px; 
+}
+.brandsTitle h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #6d6d6d;
+    font-size: 1.4em;
+}
+
+.brandProd {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    margin-top: 15px;
+}
+
+.thinkPadVideo {
+    width: 22%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.videoImgContainer {
+    width: 290px;
+    height: auto;
+    margin-top: -13px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+.videoImgContainer img {
+    width: 100%;
+    height: auto;
+}
+
+.viewThinkPad {
+    color: #47a2e4;
+    border: #47a2e4 solid 1px;
+    background-color: white;
+    font-weight: bold;
+    width: 180px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: -10px;
+}
+
+.TPproducts {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+
+.thinkPad {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 50%;
+    margin-left: 30px;
+    margin-top: 21px;
+}
+
+.TPlogo {
+    width: 60%;
+    height: auto;
+}
+
+.TPlogo img {
+    width: 100%;
+    height: auto;
+}
+
+.thinkPad span {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    font-size: 0.7em;
+    align-self: flex-end;
+    padding-bottom: 1px;
+}
+
+.TPprodContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 8px;
+    margin-left: 25px;
+}
+
+.TPprodItem {
+    display: flex;
+    flex-direction: row;
+    width: 34%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+}
+
+.TPprodImgCont {
+    height: auto;
+    width: 220px;
+}
+
+.TPprodImgCont img {
+    width: 100%;
+    height: auto;
+}
+
+.TPprodText {
+    margin-left: 10px;
+}
+
+.TPprodItem h1 {
+    color:  #47a2e4;
+    font-size: 1.1em;
+    margin-bottom: 1px;
+}
+
+.TPprodItem h3 {
+    color:  black;
+    font-size: 0.75em;
+    margin-top: 3px;
+    margin-bottom: 1px;
+}
+
+.TPprodItem p {
+    color:  black;
+    font-size: 0.75em;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.TPprodItem h4 {
+    color: #47a2e4;
+    font-size: 0.75em;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+
+
+
+
+/* OTROO */
 
 .trends{
     background-color: yellowgreen;
